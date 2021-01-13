@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping(value = "/api", produces = { MediaType.APPLICATION_JSON_VALUE })
+@RequestMapping(value = "/api" , produces = { MediaType.APPLICATION_JSON_VALUE })
 public class ApplicationController {
 
 	@GetMapping("/status")
